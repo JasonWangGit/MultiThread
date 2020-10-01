@@ -1,7 +1,15 @@
 package CreateThread;
 // First method to create a thread: extends Tread class
 public class ExtendsThread extends Thread {
-
+	public ExtendsThread() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public ExtendsThread(String name) {
+		// TODO Auto-generated constructor stub
+		super(name);
+	}
+	
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
