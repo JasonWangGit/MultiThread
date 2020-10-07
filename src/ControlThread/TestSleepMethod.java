@@ -8,7 +8,7 @@ public class TestSleepMethod {
 		Thread firstThread = new Thread(runnableThread, "First Thread");
 		firstThread.start();
 		
-		firstThread.sleep(5000);
+		Thread.sleep(5000);
 		
 		for(int i = 1; i <= 10; i++) {
 			try {
